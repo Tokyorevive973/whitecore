@@ -4,4 +4,5 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base: '/whitecore/',  // <--- Ez kell a GitHub Pages-hez
   plugins: [react()],
-})
+  base: "/white-provides-project",
+});
